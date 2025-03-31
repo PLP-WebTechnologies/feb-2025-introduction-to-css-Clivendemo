@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(174, 99, 6);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(11, 10, 8);
+    margin: 0;
+    padding: 0;
+
+}
+
+#maintitle{
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 2px;
+    color: black;
+}
+
+.content{
+    width: 80%;
+    margin:80px;
+    background: white;
+    padding:04%;
+    border: 2px;
+    border-radius: 10px;
+    align-content: center;
+}
+
+.text{
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+input, textarea{
+    width: 100%;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    font-size: 16px;
+
+}
+label{
+ display: block;
+ font-weight: bold;
+}
+
+button{
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+    padding: 10px;
+      
+}
+#list{
+    color: black;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: left;
+    grid-template-rows: auto;
+}
+
+table{
+    border: radius 10px;
+    width: 100%;
+    height: 200px;
+    text-align: left;
+    vertical-align: middle;
+
+}
+.footertext{
+    text-align: center;
+}
